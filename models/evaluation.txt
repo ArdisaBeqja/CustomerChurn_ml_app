@@ -1,0 +1,16 @@
+MODEL COMPARISON
+                     model  accuracy  precision   recall       f1  roc_auc
+        LogisticRegression     0.710   0.460938 0.680769 0.549689 0.780681
+GradientBoostingClassifier     0.775   0.624113 0.338462 0.438903 0.769592
+    RandomForestClassifier     0.791   0.700787 0.342308 0.459948 0.760156
+
+BEST MODEL: LogisticRegression
+
+              precision    recall  f1-score   support
+
+           0       0.87      0.72      0.79       740
+           1       0.46      0.68      0.55       260
+
+    accuracy                           0.71      1000
+   macro avg       0.66      0.70      0.67      1000
+weighted avg       0.76      0.71      0.72      1000
